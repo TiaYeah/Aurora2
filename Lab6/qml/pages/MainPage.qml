@@ -36,5 +36,32 @@ Page {
            backgroundColor: "white"
            color: "black"
         }
+        Button {
+           y: 200
+           x: 100
+           id: button4
+           text: qsTr("4")
+           onClicked: pageStack.push(Qt.resolvedUrl("XMLPage.qml"))
+           backgroundColor: "white"
+           color: "black"
+        }
+        Button {
+           y: 200
+           x: 100
+           id: button5
+           text: qsTr("5")
+           onClicked: pageStack.push(Qt.resolvedUrl("XMLHTTPReq.qml"))
+           backgroundColor: "white"
+           color: "black"
+        }
+        Button {
+           y: 200
+           x: 100
+           id: button6
+           text: qsTr("6")
+           onClicked: pageStack.push(Qt.resolvedUrl("Notes.qml"))
+           backgroundColor: "white"
+           color: "black"
+        }
     }
 }

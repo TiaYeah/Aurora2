@@ -48,6 +48,10 @@ SOURCES += \
 HEADERS += \
 
 DISTFILES += \
+    qml/pages/DAO.qml \
+    qml/pages/Notes.qml \
+    qml/pages/XMLHTTPReq.qml \
+    qml/pages/XMLPage.qml \
     rpm/ru.auroraos.Lab6.spec \
     AUTHORS.md \
     CODE_OF_CONDUCT.md \

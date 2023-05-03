@@ -56,5 +56,20 @@
         <source>3</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="43"/>
+        <source>4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="52"/>
+        <source>5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="61"/>
+        <source>6</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

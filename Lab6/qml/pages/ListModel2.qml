@@ -12,7 +12,7 @@ Page {
             id: addButton
             anchors.horizontalCenter: parent.horizontalCenter
             text: "Add item"
-            onClicked: dataModel.append({ n: 0, text: "Item #" })
+            onClicked: dataModel.append({ text: "Item #" })
         }
         spacing: 10
         SilicaListView {
@@ -28,9 +28,8 @@ Page {
                     text: model.text + model.n
                 }
                 MouseArea {
-                    property int id: 2
                     anchors.fill: parent
-                    onClicked: dataModel.remove(1,2)
+                    onClicked: dataModel.remove(index)
                 }
             }
         }
