@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.15.2, 2023-05-17T21:02:13. -->
+<!-- Written by QtCreator 4.15.2, 2023-05-17T22:51:35. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -104,8 +104,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">D:\AuroraProjects\build-ru.auroraos.Lab6-AuroraOS_4_0_2_209_base_i486_in_Aurora_Build_Engine-Debug</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">D:/AuroraProjects/build-ru.auroraos.Lab6-AuroraOS_4_0_2_209_base_i486_in_Aurora_Build_Engine-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">D:\AuroraProjects\build-ru.auroraos.Lab8-AuroraOS_4_0_2_209_base_i486_in_Aurora_Build_Engine-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">D:/AuroraProjects/build-ru.auroraos.Lab8-AuroraOS_4_0_2_209_base_i486_in_Aurora_Build_Engine-Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -165,8 +165,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">D:\AuroraProjects\build-ru.auroraos.Lab6-AuroraOS_4_0_2_209_base_i486_in_Aurora_Build_Engine-Release</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">D:/AuroraProjects/build-ru.auroraos.Lab6-AuroraOS_4_0_2_209_base_i486_in_Aurora_Build_Engine-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">D:\AuroraProjects\build-ru.auroraos.Lab8-AuroraOS_4_0_2_209_base_i486_in_Aurora_Build_Engine-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">D:/AuroraProjects/build-ru.auroraos.Lab8-AuroraOS_4_0_2_209_base_i486_in_Aurora_Build_Engine-Release</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -227,8 +227,8 @@
     <value type="QString" key="MerBuildConfiguration.SigningUser"></value>
     <value type="QString" key="MerSfdkConfigurationAspect.Options"></value>
     <value type="QString" key="MerSpecFileAspect.Path"></value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">D:\AuroraProjects\build-ru.auroraos.Lab6-AuroraOS_4_0_2_209_base_i486_in_Aurora_Build_Engine-Profile</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">D:/AuroraProjects/build-ru.auroraos.Lab6-AuroraOS_4_0_2_209_base_i486_in_Aurora_Build_Engine-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">D:\AuroraProjects\build-ru.auroraos.Lab8-AuroraOS_4_0_2_209_base_i486_in_Aurora_Build_Engine-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">D:/AuroraProjects/build-ru.auroraos.Lab8-AuroraOS_4_0_2_209_base_i486_in_Aurora_Build_Engine-Profile</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -405,7 +405,7 @@
     </valuelist>
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="bool" key="MerRunConfiguration.DebugBypassOpenSslArmCapEnabled">true</value>
-    <value type="QString" key="MerRunConfiguration.QmlLiveBenchWorkspace">D:/AuroraProjects/Lab6</value>
+    <value type="QString" key="MerRunConfiguration.QmlLiveBenchWorkspace">D:/AuroraProjects/Lab8</value>
     <value type="bool" key="MerRunConfiguration.QmlLiveEnabled">true</value>
     <value type="int" key="MerRunConfiguration.QmlLiveIpcPort">-1</value>
     <value type="int" key="MerRunConfiguration.QmlLiveOptions">3</value>
@@ -413,9 +413,9 @@
     <value type="bool" key="MerRunConfiguration.SandboxEnabled">false</value>
     <value type="int" key="PE.EnvironmentAspect.Base">1</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">ru.auroraos.Lab6 (on %{Device:Name})</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">QmakeProjectManager.MerRunConfiguration:D:/AuroraProjects/Lab6/ru.auroraos.Lab6.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/AuroraProjects/Lab6/ru.auroraos.Lab6.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">ru.auroraos.Lab8 (on %{Device:Name})</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">QmakeProjectManager.MerRunConfiguration:D:/AuroraProjects/Lab8/ru.auroraos.Lab8.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/AuroraProjects/Lab8/ru.auroraos.Lab8.pro</value>
     <value type="int" key="RemoteLinux.EnvironmentAspect.Version">1</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>

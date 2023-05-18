@@ -19,8 +19,9 @@ Page {
            height: 100
            color: modelData.color
            Text {
+               color: modelData.textColor
                anchors.centerIn: parent
-               text: modelData.text || "empty text"
+               text: modelData.text
            }
        }
    }

@@ -35,7 +35,7 @@
 ##
 ################################################################################
 
-TARGET = ru.auroraos.Lab6
+TARGET = ru.auroraos.Lab8
 
 CONFIG += \
     auroraapp
@@ -43,24 +43,18 @@ CONFIG += \
 PKGCONFIG += \
 
 SOURCES += \
+    src/counter.cpp \
+    src/liststring.cpp \
     src/main.cpp \
 
 HEADERS += \
+    src/counter.h \
+    src/liststring.h
 
 DISTFILES += \
-    ../Lab7/qml/pages/Page1.qml \
-    ../Lab7/qml/pages/Page2.qml \
-    ../Lab7/qml/pages/Page3.qml \
-    ../Lab7/qml/pages/Page4.qml \
-    ../Lab7/qml/pages/Page5.qml \
-    ../Lab7/qml/pages/Page6.qml \
-    qml/pages/DAO.qml \
-    qml/pages/Notes.qml \
-    qml/pages/Page7.qml \
-    qml/pages/Page8.qml \
-    qml/pages/XMLHTTPReq.qml \
-    qml/pages/XMLPage.qml \
-    rpm/ru.auroraos.Lab6.spec \
+    qml/pages/page1.qml \
+    qml/pages/page2.qml \
+    rpm/ru.auroraos.Lab8.spec \
     AUTHORS.md \
     CODE_OF_CONDUCT.md \
     CONTRIBUTING.md \
@@ -72,5 +66,5 @@ AURORAAPP_ICONS = 86x86 108x108 128x128 172x172
 CONFIG += auroraapp_i18n
 
 TRANSLATIONS += \
-    translations/ru.auroraos.Lab6.ts \
-    translations/ru.auroraos.Lab6-ru.ts \
+    translations/ru.auroraos.Lab8.ts \
+    translations/ru.auroraos.Lab8-ru.ts \

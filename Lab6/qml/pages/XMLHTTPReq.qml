@@ -22,7 +22,7 @@ Page {
     Component.onCompleted: loadNews()
     function loadNews() {
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', 'http://www.cbr.ru/scripts/XML_daily.asp', true);
+        xhr.open('GET', 'https://www.cbr-xml-daily.ru/daily_utf8.xml', true);
         xhr.onreadystatechange = function() {
             if (xhr.readyState === XMLHttpRequest.DONE) {
                 xmlListModel.xml = xhr.responseText;

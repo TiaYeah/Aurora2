@@ -7,7 +7,7 @@ Item {
     property var db;
 
     Component.onCompleted: {
-        db = LocalStorage.openDatabaseSync("notes", "1.0");
+        db = LocalStorage.openDatabaseSync("notes3", "1.0");
         createNotesTable();
     }
     function createNotesTable() {

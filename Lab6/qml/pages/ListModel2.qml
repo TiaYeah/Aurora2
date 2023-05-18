@@ -5,34 +5,37 @@ import QtQuick.Layouts 1.1
 
 Page {
     ListModel { id: dataModel }
-    Column { //...
-        anchors.fill: parent
-        anchors.horizontalCenter: parent.horizontalCenter
-        Button {
-            id: addButton
-            anchors.horizontalCenter: parent.horizontalCenter
-            text: "Add item"
-            onClicked: dataModel.append({ text: "Item #" })
-        }
-        spacing: 10
-        SilicaListView {
-            width: parent.width; height: parent.height - addButton.height;
-            header: PageHeader { title: "Simple List" }
-            model: dataModel
-            delegate: Rectangle {
+    Column {
+            width: page.width
+
+            Button {
+                id: addButton
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: "Добавить"
+
+                property int counter: 1
+                onClicked: dataModel.append({ text: "Элемент " + counter++ })
+            }
+            SilicaListView {
+                VerticalScrollDecorator{}
+                spacing: 10
                 width: parent.width;
-                height: 100;
-                color: "white";
-                Text {
-                    anchors.centerIn: parent
-                    text: model.text + model.n
-                }
-                MouseArea {
-                    anchors.fill: parent
-                    onClicked: dataModel.remove(index)
+                height: 800
+                header: PageHeader { title: "Список" }
+                model: dataModel
+                delegate: Rectangle {
+                    width: parent.width; height: 100; color: "white";
+                    Text {
+                        anchors.centerIn: parent
+                        text: model.text
+                    }
+                    MouseArea
+                    {
+                        anchors.fill: parent
+                        onClicked: dataModel.remove(model.index)
+                    }
+
                 }
             }
         }
-
-    }
 }

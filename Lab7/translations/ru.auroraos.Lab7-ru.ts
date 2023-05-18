@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="en">
+<TS version="2.1" language="ru">
 <context>
     <name>AboutPage</name>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="57"/>
         <source>About Application</source>
-        <translation>About Application</translation>
+        <translation>О приложении</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="67"/>
@@ -16,7 +16,7 @@
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="72"/>
         <source>3-Clause BSD License</source>
-        <translation>3-Clause BSD License</translation>
+        <translation>Лицензия 3-Clause BSD</translation>
     </message>
     <message>
         <location filename="../qml/pages/AboutPage.qml" line="82"/>
@@ -36,7 +36,7 @@
     <message>
         <location filename="../qml/cover/DefaultCoverPage.qml" line="46"/>
         <source>Template</source>
-        <translation>Template</translation>
+        <translation>Шаблон</translation>
     </message>
 </context>
 <context>
@@ -69,16 +69,6 @@
     <message>
         <location filename="../qml/pages/MainPage.qml" line="61"/>
         <source>6</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/MainPage.qml" line="70"/>
-        <source>7</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/MainPage.qml" line="79"/>
-        <source>8</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

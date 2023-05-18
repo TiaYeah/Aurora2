@@ -5,6 +5,32 @@ import QtQuick.Layouts 1.1
 Page {
     objectName: "mainPage"
     allowedOrientations: Orientation.All
+
+    property int stackDepth
+    property int pushPages : 0
+    property int popPages : 0
+
+    Component.onCompleted:
+    {
+        pageStack.onDepthChanged.connect(onDepthChangedMy)
+    }
+
+    function onDepthChangedMy() {
+
+            if(stackDepth > pageStack.depth)
+            {
+                popPages++;
+            }
+            else
+            {
+                pushPages++;
+            }
+
+        stackDepth = pageStack.depth
+        console.log("Добавлено страниц: " + pushPages);
+        console.log("Удалено страниц: " + popPages);
+    }
+
     Column {
         anchors.fill: parent
         anchors.margins: Theme.paddingMedium
@@ -14,7 +40,7 @@ Page {
            x: 100
            id: button1
            text: qsTr("1")
-           onClicked: pageStack.push(Qt.resolvedUrl("ListModel.qml"))
+           onClicked: pageStack.push(Qt.resolvedUrl("Page1.qml"))
            backgroundColor: "white"
            color: "black"
         }
@@ -23,7 +49,7 @@ Page {
            x: 100
            id: button2
            text: qsTr("2")
-           onClicked: pageStack.push(Qt.resolvedUrl("ListModel2.qml"))
+           onClicked: pageStack.push(Qt.resolvedUrl("Page2.qml"))
            backgroundColor: "white"
            color: "black"
         }
@@ -32,7 +58,7 @@ Page {
            x: 100
            id: button3
            text: qsTr("3")
-           onClicked: pageStack.push(Qt.resolvedUrl("ListModel2Js.qml"))
+           onClicked: pageStack.push(Qt.resolvedUrl("Page3.qml"))
            backgroundColor: "white"
            color: "black"
         }
@@ -41,7 +67,7 @@ Page {
            x: 100
            id: button4
            text: qsTr("4")
-           onClicked: pageStack.push(Qt.resolvedUrl("XMLPage.qml"))
+           onClicked: pageStack.push(Qt.resolvedUrl("Page4.qml"))
            backgroundColor: "white"
            color: "black"
         }
@@ -50,7 +76,7 @@ Page {
            x: 100
            id: button5
            text: qsTr("5")
-           onClicked: pageStack.push(Qt.resolvedUrl("XMLHTTPReq.qml"))
+           onClicked: pageStack.push(Qt.resolvedUrl("Page5.qml"))
            backgroundColor: "white"
            color: "black"
         }
@@ -59,25 +85,7 @@ Page {
            x: 100
            id: button6
            text: qsTr("6")
-           onClicked: pageStack.push(Qt.resolvedUrl("Notes.qml"))
-           backgroundColor: "white"
-           color: "black"
-        }
-        Button {
-           y: 200
-           x: 100
-           id: button7
-           text: qsTr("7")
-           onClicked: pageStack.push(Qt.resolvedUrl("Page7.qml"))
-           backgroundColor: "white"
-           color: "black"
-        }
-        Button {
-           y: 200
-           x: 100
-           id: button8
-           text: qsTr("8")
-           onClicked: pageStack.push(Qt.resolvedUrl("Page8.qml"))
+           onClicked: pageStack.push(Qt.resolvedUrl("Page6.qml"))
            backgroundColor: "white"
            color: "black"
         }

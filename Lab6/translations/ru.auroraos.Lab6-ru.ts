@@ -71,5 +71,15 @@
         <source>6</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="70"/>
+        <source>7</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="79"/>
+        <source>8</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>

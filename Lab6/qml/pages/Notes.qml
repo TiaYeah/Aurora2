@@ -5,17 +5,15 @@ import QtQuick.Layouts 1.1
 Page {
     DAO { id: dao }
     Column {
-        spacing: 10
-        anchors.fill: parent
-        anchors.horizontalCenter: parent.horizontalCenter
+        width: parent.width
+
         TextField{
-            anchors.horizontalCenter: parent.horizontalCenter
+            width: parent.width
             id: textField1
             placeholderText: "Введите заметку"
         }
 
         Button {
-            anchors.horizontalCenter: parent.horizontalCenter
             id: button1
             text: "Добавить"
             onClicked: {
@@ -25,15 +23,17 @@ Page {
         }
         SilicaListView {
              width: parent.width;
-             x: 150
-             y: 200
+             height: 800
              model: ListModel { id: notesListModel }
              delegate: ListItem {
                  Label {
                      text: note + " " + id
                      MouseArea {
                          anchors.fill: parent
-                         onClicked: notesListModel.remove(id)
+                         onClicked:  {
+                             dao.deleteNote(id)
+                             selectNotes()
+                         }
                      }
                  }
              }
