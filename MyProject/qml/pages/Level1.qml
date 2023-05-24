@@ -204,22 +204,22 @@ Page {
                 onDragElement: {
                     if(_direction === 1 && matrix.getEl(topY - 1, leftX) !== 1){
                         field.updateMatrix(pos, length, topY, leftX, _direction)
-                        field.printMatrix()
+                        //field.printMatrix()
                         topY--
                         y -= 105
                     } else if(_direction === 2 && matrix.getEl(topY, leftX + length) !== 1){
                         field.updateMatrix(pos, length, topY, leftX, _direction)
-                        field.printMatrix()
+                        //field.printMatrix()
                         leftX++
                         x += 105
                     } else if(_direction === 3 && matrix.getEl(topY + length, leftX) !== 1){
                         field.updateMatrix(pos, length, topY, leftX, _direction)
-                        field.printMatrix()
+                        //field.printMatrix()
                         topY++
                         y += 105
                     } else if(_direction === 4 && matrix.getEl(topY, leftX - 1) !== 1){
                         field.updateMatrix(pos, length, topY, leftX, _direction)
-                        field.printMatrix()
+                        //field.printMatrix()
                         leftX--
                         x -= 105
                     }

@@ -4,7 +4,7 @@ import QtQuick.Layouts 1.1
 
 Page {
     id: page
-    property var _fieldModel: [{id: 1}, {id: 2}]
+    property var _fieldModel: [{id: 1}, {id: 2}, {id: 3}]
     PageHeader{
         id: header
         title: "Выберите уровень"

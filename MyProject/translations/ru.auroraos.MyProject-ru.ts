@@ -61,9 +61,30 @@
     </message>
 </context>
 <context>
+    <name>Level2</name>
+    <message>
+        <location filename="../qml/pages/Level2.qml" line="19"/>
+        <source>../resources/%1/background.png</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Level2.qml" line="42"/>
+        <location filename="../qml/pages/Level2.qml" line="78"/>
+        <location filename="../qml/pages/Level2.qml" line="90"/>
+        <source>../resources/%1/WallVertical.png</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Level2.qml" line="54"/>
+        <location filename="../qml/pages/Level2.qml" line="66"/>
+        <source>../resources/%1/WallHorizontal.png</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>Levels</name>
     <message>
-        <location filename="../qml/pages/Levels.qml" line="20"/>
+        <location filename="../qml/pages/Levels.qml" line="26"/>
         <source>Level%1.qml</source>
         <translation type="unfinished"></translation>
     </message>

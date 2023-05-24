@@ -52,6 +52,7 @@ HEADERS += \
 DISTFILES += \
     qml/pages/Level1.qml \
     qml/pages/Level2.qml \
+    qml/pages/Level3.qml \
     qml/pages/Levels.qml \
     qml/pages/MyBlock2.qml \
     qml/pages/SkinChoose.qml \
